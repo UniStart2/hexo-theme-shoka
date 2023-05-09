@@ -2,23 +2,21 @@
 
 ## Usage
 
-1. Clone this repository
-
+1. 克隆当前仓库到hexo主题文件夹下
 ``` bash
 # cd your-blog
-git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka
+git <github repository> ./themes/shoka
 ```
 
-2. Make changes to the root `_config.yml`
-  - update `theme` fragment as `shoka`.  
+2. 修改hexo根目录下`_config.yml`文件中`theme`配置项的值为`shoka`
 
-3. Install the necessary plugins
+3. 确保安装了如下依赖
   - [hexo-renderer-multi-markdown-it](https://www.npmjs.com/package/hexo-renderer-multi-markdown-it)
   - [hexo-autoprefixer](https://www.npmjs.com/package/hexo-autoprefixer)
   - [hexo-algoliasearch](https://www.npmjs.com/package/hexo-algoliasearch)
   - [hexo-symbols-count-time](https://www.npmjs.com/package/hexo-symbols-count-time)
   - [hexo-feed](https://www.npmjs.com/package/hexo-feed)
 
-4. View a site configuration example in the `example` folder.
+4. 在`example`文件夹中可以查看站点配置示例.
 
-5. [中文使用说明](https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/)
+5. 更多使用方式，请参考[Yume Shoka](https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/)的博客
